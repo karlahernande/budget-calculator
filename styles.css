@@ -48,7 +48,6 @@ a {
     border-radius: 0.5em;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25);
     font-weight: bold;
-    background-color: ;
 }
 
 .Welcome {
@@ -56,7 +55,7 @@ a {
     flex-direction: row;
     justify-content: center;
     background-color: #90A9B7;
-    font-size: 50px;
+    font-size: 48px;
 }
 
 /* br {
@@ -64,9 +63,27 @@ a {
 
 .intro {
     background-color: #8797B2;
+    /* box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25); */
     font-size: 2em;
     line-height: 1.5;
     font-family: Georgia, 'Times New Roman', Times, serif ;
     margin-left: 13%;
     margin-right: 13%;
 }
+
+.First {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 48px;
+    background-color: #6D8A96;
+    border-radius: 0.5em;
+    width: fit-content;
+    margin-left: 36.8%;
+    margin-right: 35%;
+}
+
+/* .column {
+    float: left;
+    width: 50%;
+} */
