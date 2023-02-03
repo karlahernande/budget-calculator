@@ -56,6 +56,7 @@ a {
     justify-content: center;
     background-color: #90A9B7;
     font-size: 48px;
+    padding: 2vw;
 }
 
 /* br {
@@ -67,6 +68,13 @@ a {
     font-size: 2em;
     line-height: 1.5;
     font-family: Georgia, 'Times New Roman', Times, serif ;
+    /* margin-left: 13%;
+    margin-right: 13%; */
+    justify-content: space-between;
+    padding: 5vw;
+}
+
+.intro p {
     margin-left: 13%;
     margin-right: 13%;
 }
@@ -83,6 +91,15 @@ a {
     margin-right: 35%;
 }
 
+footer {
+    background-color:#6D8A96 ;
+}
+
+.pad {
+    padding: 5vw;
+    display: flex;
+    justify-content: space-between;
+}
 /* .column {
     float: left;
     width: 50%;
