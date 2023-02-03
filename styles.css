@@ -21,10 +21,12 @@
 }
 
 a {
-    color: aliceblue;
+    color: black;
     font-size: 30px;
     text-decoration: none;
     background-color: #90A9B7;
+    font-weight: bold;
+    /* justify-content: space-between; */
 }
 
 .Hero {
@@ -46,6 +48,7 @@ a {
     border-radius: 0.5em;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25);
     font-weight: bold;
+    background-color: ;
 }
 
 .Welcome {
@@ -56,13 +59,14 @@ a {
     font-size: 50px;
 }
 
-br {
-    background-color: #90A9B7;
-}
+/* br {
+    background-color: #90A9B7; */
+
 .intro {
-    background-color: #90A9B7;
+    background-color: #8797B2;
     font-size: 2em;
     line-height: 1.5;
     font-family: Georgia, 'Times New Roman', Times, serif ;
-
+    margin-left: 13%;
+    margin-right: 13%;
 }
