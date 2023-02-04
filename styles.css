@@ -91,6 +91,29 @@ a {
     margin-right: 35%;
 }
 
+.row {
+    margin-top: 1%;
+    display: flex;
+    margin-right: 25%;
+    margin-left: 25%;
+    flex-direction: column;
+}
+
+.column {
+    margin-top: 5%;
+    background-color: #8797B2;
+    margin-bottom: 3%;
+    width: 48%;
+}
+/* .column {
+    float: left;
+    width: 50%;
+} */
+
+/* .row:after {
+    display: table;
+    clear: both;
+} */
 footer {
     background-color:#6D8A96 ;
 }
