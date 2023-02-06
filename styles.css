@@ -81,6 +81,7 @@ h2 {
     margin-left: 13%;
     margin-right: 13%;
     margin-top: 3%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* br {
@@ -101,6 +102,7 @@ h2 {
     flex-direction: column;
     border-radius: 15px;
     margin-top: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
 
@@ -146,6 +148,7 @@ h2 {
     flex: 50%;
     padding: 2vw;
     background-color: #8797B2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 ul {
@@ -160,6 +163,7 @@ table {
     margin-bottom: 5%;
     margin-left: 13%;
     margin-right: 13%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 td, th {
@@ -169,8 +173,7 @@ td, th {
 }
 
 tr:nth-child(even) {
-    background-color: #dddd
-    ;
+    background-color: #dddd;
 }
 
 .column2 {
@@ -179,6 +182,7 @@ tr:nth-child(even) {
     background-color: #8797B2;
     margin-left: 13%;
     margin-right: 13%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .column2 p {
@@ -196,6 +200,7 @@ tr:nth-child(even) {
     margin-right: 13%;
     background-color: #8797B2;
     padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .column3 p {
@@ -204,8 +209,15 @@ tr:nth-child(even) {
 }
 
 
+.empty {
+    width: 300%;
+    background-color: black;
+}
+
 footer {
-    background-color: #5D707F; ;
+    background-color: #5D707F; 
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .pad {
