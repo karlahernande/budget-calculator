@@ -171,6 +171,21 @@ tr:nth-child(even) {
     margin-left: 13%;
 } */
 
+.column3 {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 13%;
+    margin-right: 13%;
+    background-color: #8797B2;
+    padding: 5px;
+}
+
+.column3 p {
+    font-size: larger;
+    text-align: center;
+}
+
+
 footer {
     background-color: #5D707F; ;
 }
