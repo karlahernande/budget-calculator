@@ -5,7 +5,14 @@
     /* background-color:transparent #90A9B7; */
 }
 
+body {
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
+
+}
+
 .Main {
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -14,21 +21,27 @@
     height: 180px;
 }
 
-.Nav {
+Nav {
     width: 70vw;
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 a {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
     color: black;
-    font-size: 30px;
+    font-size: 45px;
     text-decoration: none;
-    background-color: #5D707F;
+    /* background-color: #5D707F; */
     /* background-color: #90A9B7; */
     font-weight: bold;
     /* justify-content: space-between; */
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    border: solid 1px black;
+    width: 300px;
 }
 
 .Hero {
@@ -43,13 +56,15 @@ a {
 }
 
 .content {
+    color: #d6d6d6;
     width: fit-content;
-    background-color: rgba(225, 225, 255, 0.25);
+    background-color: rgba(34, 95, 113, 0.46);
     padding: 2em;
     font-size: 5em;
     border-radius: 0.5em;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25);
     font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h2 {
