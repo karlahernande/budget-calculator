@@ -40,6 +40,7 @@ a {
     font-weight: bold;
     /* justify-content: space-between; */
     font-family: 'Courier New', Courier, monospace;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
     border: solid 1px black;
     width: 300px;
 }
@@ -217,6 +218,7 @@ tr:nth-child(even) {
 
 h1 {
     font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 footer {
     background-color: #5D707F; 
@@ -228,6 +230,7 @@ footer {
     padding: 5vw;
     display: flex;
     justify-content: space-between;
+    line-height: 1.5;
 }
 
 /* .Second {
