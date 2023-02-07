@@ -214,6 +214,10 @@ tr:nth-child(even) {
     background-color: black;
 }
 
+
+h1 {
+    font-size: 30px;
+}
 footer {
     background-color: #5D707F; 
     font-weight: 600;
